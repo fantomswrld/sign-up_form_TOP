@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Rowdies:wght@300;400;700&display=swap');
+/* font name is Rowdies */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,4 +10,74 @@
 body {
     font-size: 1rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Rowdies', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    width: 45%;
+    position: relative;
+}
+
+.left .background-image {
+    height: 100%;
+    width: 100%;
+}
+
+.left div {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: calc((100vh / 2) / 2);
+    height: 100px;
+    width: 100%;
+    color: #fff;
+}
+
+.left div img {
+    height: 65px;
+    width: 65px;
+    margin-right: 10px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: auto;
+    background: #ececec;
+}
+
+.highlighted-area {
+    background-color: #fff;
+    padding: 50px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.row .left-side, .row .right-side {
+    width: 100%;
+    padding: 10px;
+}
+
+input {
+    height: 80%;
+    width: 100%;
+    padding: 10px;
 }
