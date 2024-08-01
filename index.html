@@ -7,6 +7,74 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="left">
+            <img class="background-image" src="images/photo-1585202900225-6d3ac20a6962.jpg" alt="Background Image">
+
+            <div class="company-container">
+                <img src="images/Who_Not_Logo-removebg-preview.png" alt="Company Logo">
+
+                <h1 id="logo">Why Not</h1>
+            </div>
+        </div>
+
+        <div class="right">
+            <h4 class="not-highlighted">
+                <strong>
+                    This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
+                </strong>
+            </h4>
+
+            <h4 class="not-highlighted">
+                <strong>You know you want to.</strong>
+            </h4>
+
+            <form action="" method="post">
+                <div class="highlighted-area">
+                    <h2>Let's Do This!</h2>
+
+                    <div class="row">
+                        <div class="left-side">
+                            <label for="first_name">FIRST NAME*</label>
+                            <input required type="text" name="first_name" id="first_name">
+                        </div>
+
+                        <div class="right-side">
+                            <label for="last_name">LAST NAME*</label>
+                            <input required type="text" name="last_name" id="last_name">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="left-side">
+                            <label for="email_address">EMAIL*</label>
+                            <input required type="email" name="email_address" id="email_address">
+                        </div>
+
+                        <div class="right-side">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="number" name="phone_number" id="phone_number" minlength="10" maxlength="10" placeholder="0526154856">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="left-side">
+                            <label for="password">PASSWORD*</label>
+                            <input required type="password" name="password" id="password" minlength="8">
+                        </div>
+
+                        <div class="right-side">
+                            <label for="confirm_password">CONFIRM PASSWORD*</label>
+                            <input required type="password" name="confirm_password" id="confirm_password" minlength="8">
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit">Create Account</button>
+
+                <p class="not-highlighted">Already have an account? <a href="">Log in</a></p>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
